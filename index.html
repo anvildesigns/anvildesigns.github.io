@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="row"><a href="#home" class="brand">Anvil</a>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="menu-trigger">
+      <div class="hamburger top"></div>
+      <div class="hamburger middle"></div>
+      <div class="hamburger bottom"></div>
+    </div>
+    <div class="menu">
+      <ul class="mobile-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <header id="home"><img src="images/logo.png" alt="Anvil Logo" draggable="false" class="header-logo"><img src="images/mobile-logo.svg" alt="Mobile Logo" class="mobile-logo"></header>
+    <main>
+      <section id="about">
+        <div class="row">
+          <h1>ABOUT ANVIL</h1>
+          <p>Veil. Youve found it. This is where youll find all the big-time action, major storylines and iconic Spider-Man magic youd come to expect from the Wall-Crawler. Marvels mighty mutants go worldwide and beyond in this series following Cyclops, Wolverine, Beast, Emma Frost and more in their astonishing adventures.</p><a href="#portfolio">View Portfolio</a>
+        </div>
+      </section>
+      <section id="team">
+        <h1>OUR TEAM</h1>
+        <hr>
+        <div class="row">
+          <div class="profiles">
+            <div class="profile"><img src="images/jerk-one.png" alt="">
+              <h5>Jeremy Bolton</h5>
+              <h6>Art Director & Designer</h6>
+            </div>
+            <div class="profile"><img src="images/jerk-two.png" alt="">
+              <h5>Josh Stobbs</h5>
+              <h6>Designer & Developer</h6>
+            </div>
+            <div class="profile"><img src="images/jerk-three.png" alt="">
+              <h5>Ernie Bondy</h5>
+              <h6>Programmer</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h1>PORTFOLIO</h1>
+        <hr>
+        <div class="row">
+          <div class="item"><img src="images/aai.png" alt=""><a href="#" class="overlay"></a></div>
+          <div class="item"><img src="images/mckenzies.png" alt=""><a href="#" class="overlay"></a></div>
+          <div class="item"><img src="images/siren-phase.png" alt=""><a href="#" class="overlay"></a></div>
+          <div class="item"><img src="images/mercato.png" alt=""><a href="#" class="overlay"></a></div>
+          <div class="item"><img src="images/humbleleaf.png" alt=""><a href="#" class="overlay"></a></div>
+          <div class="item"><img src="images/wwwwiw.png" alt=""><a href="#" class="overlay"></a></div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="row">
+          <h1>CONTACT</h1>
+          <p>Phone - 343.584.9865</p>
+          <p>Email - anvildesigns@gmail.com</p>
+          <p>Website - anvildesigns.com</p>
+          <form id="ajax-contact" method="post" action="mailer.php">
+            <input name="name" type="text" placeholder="Your Name" autocomplete="off" required>
+            <input name="email" type="email" placeholder="Your Email" autocomplete="off" required>
+            <input name="phone" type="text" placeholder="Your Phone Number" autocomplete="off" required>
+            <textarea name="message" cols="50" rows="15" placeholder="Message..." required></textarea>
+            <input name="submit" type="submit">
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--Scripts-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/scrollit.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
